@@ -1,0 +1,62 @@
+blackman666@ReallyBlackMan:~/os2018/os2018$ echo hello world
+hello world
+
+blackman666@ReallyBlackMan:~/os2018/os2018$ passwd
+(current) UNIX password: 
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+
+blackman666@ReallyBlackMan:~/os2018/os2018$ date
+Thứ hai, 15 Tháng một năm 2018 17:37:59 ICT
+
+blackman666@ReallyBlackMan:~/os2018/os2018$ hostname
+ReallyBlackMan
+
+blackman666@ReallyBlackMan:~/os2018/os2018$ arch
+x86_64
+
+blackman666@ReallyBlackMan:~/os2018/os2018$ uname -a
+Linux ReallyBlackMan 4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+
+blackman666@ReallyBlackMan:~/os2018/os2018$ dmesg
+[    0.000000] Linux version 4.10.0-28-generic (buildd@lgw01-12) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ) #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017 (Ubuntu 4.10.0-28.32~16.04.2-generic 4.10.17)
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.10.0-28-generic root=UUID=c2f481bc-f821-4908-b3c8-677efcf3d137 ro quiet splash
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
+
+blackman666@ReallyBlackMan:~/os2018/os2018$ uptime
+ 17:40:00 up  1:28,  1 user,  load average: 0,05, 0,05, 0,11
+
+blackman666@ReallyBlackMan:~/os2018/os2018$ who am i
+
+blackman666@ReallyBlackMan:~/os2018/os2018$ whoami
+blackman666
+
+blackman666@ReallyBlackMan:~/os2018/os2018$ who
+blackman666 tty7         2018-01-14 22:58 (:0)
+
+blackman666@ReallyBlackMan:~/os2018/os2018$ id
+uid=1000(blackman666) gid=1000(blackman666) groups=1000(blackman666),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare)
+
+blackman666@ReallyBlackMan:~/os2018/os2018$ last
+blackman tty7         :0               Sun Jan 14 22:58    gone - no logout
+reboot   system boot  4.10.0-28-generi Sun Jan 14 22:56   still running
+
+wtmp begins Sun Jan 14 22:56:19 2018
+
+blackman666@ReallyBlackMan:~/os2018/os2018$ finger
+Login        Name       Tty      Idle  Login Time   Office     Office Phone
+blackman666  Minh       tty7    18:44  Jan 14 22:58 (:0)
+
+blackman666@ReallyBlackMan:~/os2018/os2018$ w
+ 17:41:32 up  1:29,  1 user,  load average: 0,35, 0,14, 0,13
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+blackman tty7     :0                CN22   18:45m  1:41   0.23s /sbin/upstart -
+
+
+
+
+
