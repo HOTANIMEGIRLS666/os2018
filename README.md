@@ -10,5 +10,5 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: Đào Bình Minh
-* ID: USTHBI6-094
+* Name: Đào Bình Minh.
+* ID: USTHBI6-094.
