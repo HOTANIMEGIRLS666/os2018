@@ -1,0 +1,21 @@
+blackman666@ReallyBlackMan:~/os2018/os2018$ ls | grep list
+
+blackman666@ReallyBlackMan:~/os2018/os2018$ ls /etc/passwd | wc -l
+1
+
+blackman666@ReallyBlackMan:~$ cd /proc
+blackman666@ReallyBlackMan:/proc$ free
+              total        used        free      shared  buff/cache   available
+Mem:        1556344      974996      112388       18784      468960      389444
+Swap:       1599484      223332     1376152
+blackman666@ReallyBlackMan:/proc$ free | grep Mem
+Mem:        1556344      978564      108740       18784      469040      385916
+
+blackman666@ReallyBlackMan:/proc$ cat /proc/cpuinfo | grep "cpu core"
+cpu cores	: 2
+cpu cores	: 2
+
+blackman666@ReallyBlackMan:/home$ cd blackman666
+blackman666@ReallyBlackMan:~$ cd Pictures
+blackman666@ReallyBlackMan:~/Pictures$ ls | grep .jpg
+
