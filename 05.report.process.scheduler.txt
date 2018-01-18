@@ -1,0 +1,13 @@
+blackman666@ReallyBlackMan:~$ cat /proc/sched_debug | grep systemd
+ systemd-journal   234       213.045259      1827   120         0.000000       423.169582         0.000000 0 0 /autogroup-8
+         systemd     1       578.746169      9681   120         0.000000      2308.417439         0.000000 0 0 /autogroup-2
+   systemd-udevd   241       667.128541      1043   120         0.000000       431.501883         0.000000 0 0 /autogroup-10
+ systemd-timesyn   322        43.586882       260   120         0.000000        44.916436         0.000000 0 0 /autogroup-28
+  systemd-logind   651        45.046409       821   120         0.000000        92.615169         0.000000 0 0 /autogroup-34
+         systemd  1249         6.203607        92   120         0.000000        36.340331         0.000000 0 0 /autogroup-98
+
+blackman666@ReallyBlackMan:~$ cat /proc/1249/sched | grep systemd
+systemd (1249, #threads: 1)
+
+
+
