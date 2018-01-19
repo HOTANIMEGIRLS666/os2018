@@ -1,0 +1,4 @@
+blackman666@ReallyBlackMan:/proc$ ps -o nlwp 12581
+NLWP
+  48
+
